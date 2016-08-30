@@ -64,7 +64,6 @@ body {
   background-image: url(/Images/328H.jpg);
   background-size: cover;
   background-position: center;
-  margin-bottom: 50px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -98,6 +97,11 @@ body {
 
 header a {
   position: fixed;
+}
+
+.blog h2 {
+  font-size: 35px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
