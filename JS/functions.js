@@ -1,7 +1,7 @@
 $(document).ready(function() {
-
+    // Menu Slide Trigger Function
     var body = $('body');
-    $('.menu-toggle').bind('click', function() {
+    $('.menu-toggle').click(function() {
         body.toggleClass('menu-open');
         return false
     });
