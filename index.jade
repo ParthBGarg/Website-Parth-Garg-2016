@@ -6,15 +6,16 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         link(rel="stylesheet", href="/CSS/main.css")
         title Document
-    body
-        .page-content
+    body.menu
+        header
+            a(href="#").menu-toggle ≡
+            nav.menu-side
+                ul
+                    li Blog
+                    li Social Media
+                    li About
+                    li Contacts
             
-        .sidebar
-            ul
-                li Home
-                li Blog
-                li Social Media
-                li Projects
-                li Contact
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")
+        script(src="/JS/functions.js")
         
