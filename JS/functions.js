@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
-    console.log('testing');
+    var body = $('body');
+    $('.menu-toggle').bind('click', function() {
+        body.toggleClass('menu-open');
+        return false
+    });
 
 });
