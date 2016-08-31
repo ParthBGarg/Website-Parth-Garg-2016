@@ -19,6 +19,10 @@ a {
   left: 0;
 }
 
+.menu-toggle {
+  color: black;
+}
+
 .menu-open {
   left: 231px;
 }
@@ -48,6 +52,7 @@ a {
 li {
   padding: 10px;
   font-size: 18px;
+  color: #999900;
 }
 
 header a {
@@ -102,6 +107,30 @@ header a {
 .blog h2 {
   font-size: 35px;
   text-align: center;
+}
+
+.blog p {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 2em;
+}
+
+.blog img {
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.blog .cta-wrap {
+  text-align: center;
+}
+
+.blog .cta-wrap .cta {
+  background: #1da1f2;
+  color: white;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
