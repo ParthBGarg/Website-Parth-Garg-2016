@@ -6,4 +6,10 @@ $(document).ready(function() {
         return false
     });
 
+    // Gallery Grid Masonry
+    $('.grid').masonry({
+        itemSelector: '.item',
+        columnWidth: 160,
+        gutter: 10
+    });
 });

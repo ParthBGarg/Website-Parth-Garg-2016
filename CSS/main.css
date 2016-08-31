@@ -51,8 +51,8 @@ a {
 
 li {
   padding: 10px;
-  font-size: 18px;
-  color: #999900;
+  font-size: 14px;
+  color: white;
 }
 
 header a {
@@ -88,7 +88,7 @@ body {
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
   margin-bottom: 1px;
-  color: yellow;
+  color: white;
 }
 
 .top-section h3 {
@@ -131,6 +131,41 @@ header a {
   background: #1da1f2;
   color: white;
   padding: 10px;
+}
+
+.alt {
+  background: #e5eaee;
+}
+
+.alt h3 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.thumb-container {
+  max-width: 960px;
+  margin: 0px auto;
+  padding-bottom: 100px;
+}
+
+.thumb-container::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.thumb-container .thumb-unit {
+  width: 25%;
+  background: red;
+  display: block;
+  float: left;
+  padding-top: 20%;
+  position: relative;
+}
+
+.thumb-container .thumb-unit .thumb-overlay {
+  position: absolute;
+  top: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
