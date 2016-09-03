@@ -12,4 +12,8 @@ $(document).ready(function() {
         columnWidth: 160,
         gutter: 10
     });
+
+    $('.item').click(function() {
+        console.log('test');
+    });
 });
